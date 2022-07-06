@@ -83,10 +83,11 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "../style/common.scss";
 section {
   height: 150px;
+  margin-bottom: 5px;
 }
 .header-columns {
   display: flex;

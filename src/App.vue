@@ -4,7 +4,9 @@
     <HelloWorld msg="Welcome to Your Vue.js App" /> -->
     <!-- HEADER -->
     <TopHeader />
-    <main></main>
+    <main>
+      <ContentList />
+    </main>
     <!-- FOOTER -->
   </div>
 </template>
@@ -12,10 +14,12 @@
 <script>
 // import HelloWorld from "./components/HelloWorld.vue";
 import TopHeader from "./components/TopHeader.vue";
+import ContentList from "./components/ContentList.vue";
 export default {
   name: "App",
   components: {
     TopHeader,
+    ContentList,
   },
 };
 </script>
