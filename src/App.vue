@@ -6,6 +6,7 @@
     <TopHeader />
     <main>
       <ContentList />
+      <BlueBand />
     </main>
     <!-- FOOTER -->
   </div>
@@ -15,11 +16,13 @@
 // import HelloWorld from "./components/HelloWorld.vue";
 import TopHeader from "./components/TopHeader.vue";
 import ContentList from "./components/ContentList.vue";
+import BlueBand from "./components/BlueBand.vue";
 export default {
   name: "App",
   components: {
     TopHeader,
     ContentList,
+    BlueBand,
   },
 };
 </script>
