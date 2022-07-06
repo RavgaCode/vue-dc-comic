@@ -169,6 +169,7 @@ section {
   background-image: url(../assets/img/footer-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  height: 400px;
 }
 .link-columns {
   display: flex;
@@ -192,7 +193,7 @@ section {
 }
 .img-col {
   position: relative;
-  height: 350px;
+  height: 400px;
   img {
     display: block;
     height: 100%;

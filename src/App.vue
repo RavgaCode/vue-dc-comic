@@ -10,6 +10,7 @@
       <LinkSection />
     </main>
     <!-- FOOTER -->
+    <BotFooter />
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import TopHeader from "./components/TopHeader.vue";
 import ContentList from "./components/ContentList.vue";
 import BlueBand from "./components/BlueBand.vue";
 import LinkSection from "./components/LinkSection.vue";
+import BotFooter from "./components/BotFooter.vue";
 export default {
   name: "App",
   components: {
@@ -26,6 +28,7 @@ export default {
     ContentList,
     BlueBand,
     LinkSection,
+    BotFooter,
   },
 };
 </script>
