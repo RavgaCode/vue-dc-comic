@@ -71,6 +71,7 @@ ul {
   li {
     display: flex;
     align-items: center;
+    padding: 0 1rem;
   }
   a {
     color: white;

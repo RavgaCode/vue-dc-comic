@@ -6,6 +6,7 @@
 }
 // VARIABLES
 $brand-color: #0282f9;
+$main-text-color: #8e9594;
 
 // UTILITIES
 .container {
@@ -13,9 +14,7 @@ $brand-color: #0282f9;
   width: 80%;
   margin: 0 auto;
 }
-ul {
-  display: flex;
-}
+
 li {
   text-decoration: none;
   list-style-type: none;

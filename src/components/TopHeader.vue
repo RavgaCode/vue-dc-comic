@@ -94,10 +94,18 @@ section {
   justify-content: space-between;
   align-items: center;
 }
+ul {
+  display: flex;
+}
 li {
   padding: 0 0.8rem;
   line-height: 150px;
   display: block;
+
+  a {
+    color: $main-text-color;
+    font-weight: 800;
+  }
 }
 .active {
   border-bottom: 5px solid $brand-color;
