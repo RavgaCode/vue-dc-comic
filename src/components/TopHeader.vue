@@ -10,7 +10,7 @@
             <li
               v-for="(link, index) in nav"
               :key="index"
-              :class="{ active: link.active }"
+              :class="{ 'active ': link.active }"
             >
               <a :href="link.link">{{ link.text }}</a>
             </li>
